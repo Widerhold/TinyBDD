@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyBDD", "TinyBDD\TinyBDD.csproj", "{4D9B2499-9D96-48FE-8353-85EDE6176407}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyBDD.Examples", "TinyBDD.Examples\TinyBDD.Examples.csproj", "{C7001BFE-BCFE-4ADD-8E1E-FB80BD18C849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4D9B2499-9D96-48FE-8353-85EDE6176407}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D9B2499-9D96-48FE-8353-85EDE6176407}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D9B2499-9D96-48FE-8353-85EDE6176407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7001BFE-BCFE-4ADD-8E1E-FB80BD18C849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7001BFE-BCFE-4ADD-8E1E-FB80BD18C849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7001BFE-BCFE-4ADD-8E1E-FB80BD18C849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7001BFE-BCFE-4ADD-8E1E-FB80BD18C849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

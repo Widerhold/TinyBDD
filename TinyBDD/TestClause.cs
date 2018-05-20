@@ -124,10 +124,17 @@ namespace TinyBDD
 
                 bool boolVal;
                 if (bool.TryParse(value, out boolVal))
-                    if(!boolVal)
+                {
+                    if (!boolVal)
+                    {
                         message = message.Replace(" is ", " is not ");
+                    }
+                }
                 else
+                {
                     message += " " + value;
+                }
+
             }
             return message;
         }
